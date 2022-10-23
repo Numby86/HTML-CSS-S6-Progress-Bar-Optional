@@ -30,10 +30,11 @@ body{
     grid-column: span 1;
     margin-left: 25px;
     margin-right: 25px;
+    background-color: rgb(197, 197, 197);
     width: 400px;
     height: 50px;
     animation-name: progreso;
-    animation-duration: 8s;
+    animation-duration: 10s;
 }
 .fa-check{
     background-color: transparent;
@@ -42,11 +43,11 @@ body{
     font-weight: bold;
     color: rgb(197, 197, 197);
     animation-name: cheked;
-    animation-duration: 8s;
+    animation-duration: 10s;
 }
 @keyframes progreso{
     0% {
-    background-color: red;
+    background-color: rgb(197, 197, 197);
     width: 0px;
     }
     10% {
@@ -81,7 +82,7 @@ body{
         background-color: red;
         width: 80%;
     }
-    90% {
+    88% {
         background-color: red;
         width: 90%;
     }
@@ -94,10 +95,10 @@ body{
     0%{
         color: rgb(197, 197, 197);
     }
-    90%{
+    88%{
         color: rgb(197, 197, 197);
     }
-    91%{
+    89%{
         color: red;
     }
     100%{
